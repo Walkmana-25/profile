@@ -1,4 +1,7 @@
+"use client";
 import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 export default function Home() {
   return (
@@ -12,6 +15,20 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center py-10 md:px-10">
           <h1 className="text-4xl font-bold">Hello World</h1>
           <p className="text-lg">Welcome to my website</p>
+        </div>
+      </div>
+
+      <div className="flex m-10">
+        <div>
+          <IconContext.Provider value={{ size: "2.5em" }}>
+            <a
+              href="http://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </IconContext.Provider>
         </div>
       </div>
     </main>
