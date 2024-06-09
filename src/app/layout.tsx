@@ -19,18 +19,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-gradient-to-r from-slate-300 to-slate-200">
-          <nav className="w-full p-3 bg-transparent">
-            <div className="flex justify-between items-center">
-              <p className="text-lg">hi</p>
-              <p>hi</p>
-              <div className="mx-1">
-                <GiHamburgerMenu />
-              </div>
-            </div>
-          </nav>
-          {children}
+        <div className="flex navbar rounded justify-between items-center px-10">
+          <div>
+            <a className="btn btn-ghost text-xl">Hello World</a>
+          </div>
+          <div>
+            <button className="btn btn-square btn-ghost">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                className="inline-block w-5 h-5 stroke-current"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </div>
+        {children}
       </body>
     </html>
   );
