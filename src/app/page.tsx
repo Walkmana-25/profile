@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaTwitter } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 export default function Home() {
@@ -18,8 +18,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex m-10">
-        <div>
+      <div className="flex items-center justify-center gap-5">
+        <div className="">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
               href="http://google.com"
@@ -27,6 +27,17 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <FaGithub />
+            </a>
+          </IconContext.Provider>
+        </div>
+        <div className="">
+          <IconContext.Provider value={{ size: "2.5em" }}>
+            <a
+              href="http://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
             </a>
           </IconContext.Provider>
         </div>
