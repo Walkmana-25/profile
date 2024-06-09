@@ -5,12 +5,12 @@ import { IconContext } from "react-icons";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen items-center justify-center p-24">
+    <main className="flex flex-col min-h-screen items-center justify-center p-24 bg-gradient-to-r from-slate-200 to-slate-250">
       <div className="flex max-md:flex-col items-center justify-center">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq9Sein3gZllZ5ycT5ycCOrki0p90TySVYKw&s"
           alt=""
-          className="rounded-full w-auto h-auto"
+          className="rounded-full w-40 h-40 md:w-auto md:h-auto"
         />
         <div className="flex flex-col items-center justify-center py-10 md:px-10">
           <h1 className="text-4xl font-bold">Hello World</h1>
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-5 py-5">
+      <div className="flex items-center justify-center gap-5 py-10">
         <div className="">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
