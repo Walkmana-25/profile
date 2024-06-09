@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { SiZenn, SiTwitter, SiSpeakerdeck, SiGithub } from "react-icons/si";
 import { IconContext } from "react-icons";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-5">
+      <div className="flex items-center justify-center gap-5 py-5">
         <div className="">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
@@ -26,7 +26,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub />
+              <SiGithub />
             </a>
           </IconContext.Provider>
         </div>
@@ -37,7 +37,30 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter />
+              <SiTwitter />
+            </a>
+          </IconContext.Provider>
+        </div>
+        <div className="">
+          <IconContext.Provider value={{ size: "2.5em" }}>
+            <a
+              href="http://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiSpeakerdeck />
+            </a>
+          </IconContext.Provider>
+        </div>
+
+        <div className="">
+          <IconContext.Provider value={{ size: "2.5em" }}>
+            <a
+              href="http://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiZenn />
             </a>
           </IconContext.Provider>
         </div>
