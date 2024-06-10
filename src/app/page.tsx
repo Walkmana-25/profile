@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 
 export default function Home() {
   return (
-    <main className="absolute inset-0 flex flex-col items-center justify-center p-24">
+    <main className="inset-0 flex flex-col items-center justify-center border-10">
       <div className="flex max-md:flex-col items-center justify-center">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq9Sein3gZllZ5ycT5ycCOrki0p90TySVYKw&s"
