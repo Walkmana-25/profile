@@ -13,8 +13,9 @@ export default function Home() {
           className="rounded-full w-40 h-40 md:w-auto md:h-auto"
         />
         <div className="flex flex-col items-center justify-center py-10 md:px-10">
-          <h1 className="text-4xl font-bold">Hello World</h1>
-          <p className="text-lg">Welcome to my website</p>
+          <h1 className="text-4xl font-bold">Yuta Takahashi</h1>
+          <p className="text-lg">INIAD -Toyo University-</p>
+          <p className="text-lg">東洋大学情報連携学部情報連携学科</p>
         </div>
       </div>
 
