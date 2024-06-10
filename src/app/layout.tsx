@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./globals.css";
 import { IconContext } from "react-icons";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -77,6 +78,13 @@ export default function RootLayout({
                     </label>
                   </div>
                   <div className="flex-1 px-2 mx-2">
+                    <Image
+                      src="/avatar.jpg"
+                      width={600}
+                      height={600}
+                      alt="Yuta Takahashi's icon"
+                      className="rounded-full max-h-10 max-w-10 aspect-square"
+                    />
                     <a className="btn btn-ghost" href="/">
                       Yuta Takahashi
                     </a>

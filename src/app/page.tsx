@@ -7,11 +7,15 @@ export default function Home() {
   return (
     <main className="inset-0 flex flex-col items-center justify-center border-10">
       <div className="flex max-md:flex-col items-center justify-center">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq9Sein3gZllZ5ycT5ycCOrki0p90TySVYKw&s"
-          alt=""
-          className="rounded-full w-40 h-40 md:w-auto md:h-auto"
-        />
+        <div className="rounded-full w-40 h-40 md:w-auto md:h-auto">
+          <Image
+            src="/avatar.jpg"
+            width={600}
+            height={600}
+            alt="Yuta Takahashi's icon"
+            className="rounded-full w-40 h-40 md:max-w-96 md:max-h-96"
+          />
+        </div>
         <div className="flex flex-col items-center justify-center py-10 md:px-10">
           <h1 className="text-4xl font-bold">Yuta Takahashi</h1>
           <p className="text-lg">INIAD -Toyo University-</p>
@@ -23,7 +27,7 @@ export default function Home() {
         <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
-              href="http://google.com"
+              href="https://github.com/Walkmana-25"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +38,7 @@ export default function Home() {
         <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
-              href="http://google.com"
+              href="https://twitter.com/walkmana_25"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +49,7 @@ export default function Home() {
         <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
-              href="http://google.com"
+              href="https://speakerdeck.com/walkmana25"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +61,7 @@ export default function Home() {
         <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
-              href="http://google.com"
+              href="https://zenn.dev/walkmana_25"
               target="_blank"
               rel="noopener noreferrer"
             >
