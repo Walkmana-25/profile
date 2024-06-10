@@ -59,7 +59,9 @@ export default function RootLayout({
                     </svg>
                   </label>
                 </div>
-                <div className="flex-1 px-2 mx-2">Navbar Title</div>
+                <div className="flex-1 px-2 mx-2">
+                  <a className="btn btn-ghost">Hello World</a>
+                </div>
                 <div className="flex-none hidden lg:block">
                   {NavbarContents("menu menu-horizontal")}
                 </div>
