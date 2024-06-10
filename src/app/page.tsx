@@ -19,7 +19,7 @@ export default function Home() {
       </div>
 
       <div className="flex items-center justify-center gap-5 py-10">
-        <div className="">
+        <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
               href="http://google.com"
@@ -30,7 +30,7 @@ export default function Home() {
             </a>
           </IconContext.Provider>
         </div>
-        <div className="">
+        <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
               href="http://google.com"
@@ -41,7 +41,7 @@ export default function Home() {
             </a>
           </IconContext.Provider>
         </div>
-        <div className="">
+        <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
               href="http://google.com"
@@ -53,7 +53,7 @@ export default function Home() {
           </IconContext.Provider>
         </div>
 
-        <div className="">
+        <div className="btn btn-ghost btn-circle">
           <IconContext.Provider value={{ size: "2.5em" }}>
             <a
               href="http://google.com"
