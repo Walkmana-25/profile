@@ -12,16 +12,25 @@ export const metadata: Metadata = {
 };
 
 const NavbarContents = (classCSS: string) => {
+  const constructing = (): string => {
+    return "🚧工事中🚧";
+  };
   return (
     <ul className={classCSS}>
       <li>
-        <a>Profile</a>
+        <div className="tooltip tooltip-bottom" data-tip={constructing()}>
+          <a>Profile</a>
+        </div>
       </li>
       <li>
-        <a>Works</a>
+        <div className="tooltip tooltip-bottom" data-tip={constructing()}>
+          <a>Works</a>
+        </div>
       </li>
       <li>
-        <a>Contact</a>
+        <div className="tooltip tooltip-bottom" data-tip={constructing()}>
+          <a>Contact</a>
+        </div>
       </li>
     </ul>
   );
