@@ -78,15 +78,15 @@ export default function RootLayout({
                     </label>
                   </div>
                   <div className="flex-1 px-2 mx-2">
-                    <Image
-                      src="/avatar.jpg"
-                      width={600}
-                      height={600}
-                      alt="Yuta Takahashi's icon"
-                      className="rounded-full max-h-10 max-w-10 aspect-square"
-                    />
                     <a className="btn btn-ghost" href="/">
-                      Yuta Takahashi
+                      <Image
+                        src="/avatar.jpg"
+                        width={600}
+                        height={600}
+                        alt="Yuta Takahashi's icon"
+                        className="rounded-full max-h-10 max-w-10"
+                      />
+                      <p>Yuta Takahashi</p>
                     </a>
                   </div>
                   <div className="flex-none hidden lg:block">
