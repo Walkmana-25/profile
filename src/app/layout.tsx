@@ -15,10 +15,13 @@ const NavbarContents = (classCSS: string) => {
   return (
     <ul className={classCSS}>
       <li>
-        <a>Sidebar Item 1</a>
+        <a>Profile</a>
       </li>
       <li>
-        <a>Sidebar Item 2</a>
+        <a>Works</a>
+      </li>
+      <li>
+        <a>Contact</a>
       </li>
     </ul>
   );
