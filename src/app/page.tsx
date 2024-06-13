@@ -83,6 +83,17 @@ export default function Home() {
             <FaExternalLinkAlt />
           </IconContext.Provider>
         </a>
+        <a
+          href="https://github.com/solufit/infrastructure"
+          className="btn btn-neutral"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IconContext.Provider value={{ size: "0.8em" }}>
+            My Home Lab
+            <FaExternalLinkAlt />
+          </IconContext.Provider>
+        </a>
       </div>
     </main>
   );
