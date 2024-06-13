@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { SiZenn, SiTwitter, SiSpeakerdeck, SiGithub } from "react-icons/si";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 export default function Home() {
@@ -69,6 +70,17 @@ export default function Home() {
             </a>
           </IconContext.Provider>
         </div>
+      </div>
+      <div className="flex items-center justify-center gap-5 transition-all">
+        <a
+          href="https://atcoder.jp/users/walkmana25"
+          className="btn btn-neutral"
+        >
+          <IconContext.Provider value={{ size: "0.8em" }}>
+            AtCoder
+            <FaExternalLinkAlt />
+          </IconContext.Provider>
+        </a>
       </div>
     </main>
   );
