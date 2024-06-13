@@ -75,6 +75,8 @@ export default function Home() {
         <a
           href="https://atcoder.jp/users/walkmana25"
           className="btn btn-neutral"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <IconContext.Provider value={{ size: "0.8em" }}>
             AtCoder
