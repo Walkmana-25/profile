@@ -2,9 +2,14 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const timeLineContent = [
   [
+    "2023/05/20~2023/05/21",
+    "たすくをたすく",
+    "株式会社サポーターズ技育CAMPオンラインハッカソンvol3出場, OpenAI APIを利用したタスク管理アプリ、バックエンド担当",
+  ],
+  [
     "2023/02/11~2023/02/12, 2023/03/04",
     "👑Unpacker",
-    "技育CAMPオンラインハッカソンvol11 最優秀賞受賞, 技育CAMPアドバンス副大賞受賞、ブラウザブックマークをZero Shot Classificationを利用し自動で分類を行うソフトウェアの作成、バックエンド担当",
+    "株式会社サポーターズ技育CAMPオンラインハッカソンvol11最優秀賞受賞, 技育CAMPアドバンス副大賞受賞、ブラウザブックマークをZero Shot Classificationを利用し自動で分類を行うソフトウェアの作成、バックエンド担当",
   ],
   [
     "2022",
