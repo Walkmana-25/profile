@@ -43,10 +43,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ overflow: "hidden" }}>
       <body className={(inter.className, "h-screen", "w-screen")}>
         <div className="w-full justify-center flex">
-          <nav className="absolute flex m-3 w-11/12 bg-inherit rounded justify-between items-center shadow-2xl border-b-2 dark:border-slate-800 border-gray-300">
+          <nav className="absolute flex m-3 w-11/12 bg-inherit rounded justify-between items-center shadow-2xl border-b-2 dark:border-slate-800 border-gray-300 backdrop-blur-lg">
             <div className="drawer">
               <input
                 id="my-drawer-3"
