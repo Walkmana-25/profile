@@ -49,7 +49,7 @@ export default function Page() {
       </div>
       <div className="flex-col items-center justify-center">
         <h2 className="mb-4 text-center text-2xl">TIMELINE</h2>
-        <ul className="timeline timeline-vertical">
+        <ul className="timeline timeline-vertical max-md:timeline-compact">
           {timeLineContent.map((content) => (
             <li>
               <hr />
@@ -68,7 +68,7 @@ export default function Page() {
                   />
                 </svg>
               </div>
-              <div className="timeline-end timeline-box text-lg w-3/4">
+              <div className="timeline-end timeline-box text-lg w-3/4 max-md:w-10/12">
                 <details className="collapse collapse-arrow">
                   <summary className="collapse-title text-xl font-medium">
                     <p>{content.at(1)}</p>

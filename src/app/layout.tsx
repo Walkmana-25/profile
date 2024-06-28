@@ -24,9 +24,9 @@ const NavbarContents = (classCSS: string) => {
         </div>
       </li>
       <li>
-        <div className="tooltip tooltip-bottom" data-tip={constructing()}>
-          <a>Works</a>
-        </div>
+        <a href="/work" className="tooltip tooltip-bottom">
+          Work
+        </a>
       </li>
       <li>
         <div className="tooltip tooltip-bottom" data-tip={constructing()}>
