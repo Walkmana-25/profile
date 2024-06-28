@@ -2,6 +2,11 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const timeLineContent = [
   [
+    "2022",
+    "MCBE Management v2",
+    "Pythonで書き直したMinecraftサーバー管理用ソフトウェア",
+  ],
+  [
     "2018~2021",
     "MCBE Management",
     "中学生の時に作成した、Minecraftサーバー管理用スクリプト",
