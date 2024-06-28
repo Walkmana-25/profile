@@ -2,6 +2,11 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const timeLineContent = [
   [
+    "2023/12/02~2023/12/03",
+    "Package Wrapper",
+    "株式会社サポーターズ技育CAMPオンラインハッカソンvol12出場, Rustを使用したLinuxのパッケージ管理システムのラッパー",
+  ],
+  [
     "2023/05/20~2023/05/21",
     "たすくをたすく",
     "株式会社サポーターズ技育CAMPオンラインハッカソンvol3出場, OpenAI APIを利用したタスク管理アプリ、バックエンド担当",
@@ -27,7 +32,7 @@ export default function Page() {
   return (
     <main
       style={{ overflow: "auto" }}
-      className="h-full mt-20 w-5/6 flex-col items-center justify-center"
+      className="h-full mt-20 mb-5 w-5/6 flex-col items-center justify-center"
     >
       <div className="flex flex-col items-center justify-center mt-40">
         <h1 className="text-6xl font-bold m-20">Works</h1>
@@ -37,6 +42,7 @@ export default function Page() {
         <ul className="timeline timeline-vertical">
           {timeLineContent.map((content) => (
             <li>
+              <hr />
               <div className="timeline-start text-lg">{content.at(0)}</div>
               <div className="timeline-middle">
                 <svg
