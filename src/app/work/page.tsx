@@ -1,8 +1,11 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const timeLineContent = [
-  ["1984", "First Macintosh computer", "content"],
-  ["1999", "fff", "Ffff"],
+  [
+    "2018~2021",
+    "MCBE Management",
+    "中学生の時に作成した、Minecraftサーバー管理用スクリプト",
+  ],
 ];
 
 export default function Page() {
