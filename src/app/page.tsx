@@ -1,12 +1,17 @@
 "use client";
 import Image from "next/image";
+import styles from "./index.css";
 import { SiZenn, SiTwitter, SiSpeakerdeck, SiGithub } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { GiHidden } from "react-icons/gi";
 
 export default function Home() {
   return (
-    <main className="inset-0 flex flex-col items-center justify-center border-10">
+    <main
+      className="inset-0 flex flex-col items-center justify-center border-10"
+      style={{ overflow: "hidden" }}
+    >
       <div className="flex max-md:flex-col items-center justify-center">
         <div className="rounded-full w-40 h-40 md:w-auto md:h-auto">
           <Image
