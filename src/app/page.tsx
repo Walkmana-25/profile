@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import styles from "./index.css";
 import { SiZenn, SiTwitter, SiSpeakerdeck, SiGithub } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IconContext } from "react-icons";
