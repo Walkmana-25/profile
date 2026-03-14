@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { SiZenn, SiTwitter, SiSpeakerdeck, SiGithub } from "react-icons/si";
+import { SiZenn, SiX, SiSpeakerdeck, SiGithub } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { GiHidden } from "react-icons/gi";
@@ -47,7 +47,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SiTwitter />
+              <SiX />
             </a>
           </IconContext.Provider>
         </div>
