@@ -68,4 +68,5 @@ typings/
 .yarn-integrity
 .env
 .next
-
+.open-next
+.wrangler
