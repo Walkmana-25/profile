@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "opennextjs-cloudflare build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "workers:build": "opennextjs-cloudflare build",
+    "workers:dev": "opennextjs-cloudflare preview",
+    "workers:deploy": "opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "daisyui": "^5.5.19",
