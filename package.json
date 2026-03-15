@@ -3,13 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "opennextjs-cloudflare preview",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "workers:build": "opennextjs-cloudflare build",
-    "workers:dev": "opennextjs-cloudflare preview",
-    "workers:deploy": "opennextjs-cloudflare deploy"
+    "lint": "next lint"
   },
   "dependencies": {
     "daisyui": "^5.5.19",
