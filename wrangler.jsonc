@@ -3,7 +3,7 @@
   "name": "profile-worker",
   "compatibility_date": "2026-02-24",
   "assets": {
-    "directory": "out",
+    "directory": "./out/",
     "html_handling": "auto-trailing-slash",
   },
 }
