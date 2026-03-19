@@ -7,7 +7,7 @@ export const unpacker: Work = {
   date: "2023/02/11~2023/03/04",
   summary:
     "株式会社サポーターズ技育CAMPオンラインハッカソンvol11最優秀賞受賞, 技育CAMPアドバンス副大賞受賞. ブラウザブックマークをZero Shot Classificationを利用し自動で分類を行うソフトウェア",
-  isPinned: false,
+  isPinned: true,
   role: "Backend",
   technologies: ["TypeScript", "Machine Learning", "Zero Shot Classification"],
   content: (
