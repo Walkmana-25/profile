@@ -41,6 +41,12 @@ export function WorkDetail({ work }: WorkDetailProps) {
         )}
       </header>
 
+      {/* Overview */}
+      <section className="mb-8">
+        <h2 className="text-xl font-bold mb-3">Overview</h2>
+        <p className="text-base-content/80 leading-relaxed">{work.summary}</p>
+      </section>
+
       {/* Main Visual */}
       <div className="w-full aspect-video rounded-lg overflow-hidden bg-base-300 mb-8">
         {work.thumbnailUrl ? (
@@ -72,14 +78,14 @@ export function WorkDetail({ work }: WorkDetailProps) {
       {/* Tech Stack */}
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">Tech Stack</h2>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-3">
           {work.technologies.map((tech) => (
-            <span
+            <div
               key={tech}
-              className="badge badge-outline badge-primary px-4 py-3"
+              className="flex items-center justify-center px-4 py-2 rounded-full border-2 border-primary bg-primary/10 text-primary text-sm font-medium"
             >
               {tech}
-            </span>
+            </div>
           ))}
         </div>
       </section>
