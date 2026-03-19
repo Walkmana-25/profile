@@ -4,13 +4,18 @@ import { SiZenn, SiX, SiSpeakerdeck, SiGithub } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { GiHidden } from "react-icons/gi";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    document.documentElement.style.overflow = "hidden";
+    return () => {
+      document.documentElement.style.overflow = "";
+    };
+  }, []);
+
   return (
-    <main
-      className="inset-0 flex flex-col items-center justify-center border-10"
-      style={{ overflow: "hidden" }}
-    >
+    <main className="h-screen flex flex-col items-center justify-center overflow-hidden">
       <div className="flex max-md:flex-col items-center justify-center">
         <div className="rounded-full w-40 h-40 md:w-auto md:h-auto">
           <Image
