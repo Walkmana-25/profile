@@ -1,5 +1,20 @@
 # React + TypeScript + Vite
 
+## Vike React + SSG
+
+This project uses Vike with React and pre-renders pages as static files at build time.
+
+- Global Vike config: `pages/+config.ts`
+- Page routes: filesystem routing under `pages/`
+
+Build command:
+
+```bash
+pnpm run build
+```
+
+After build, static files are generated under `dist/client` (for example: `/` and `/profile`).
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
