@@ -38,6 +38,3 @@ jobs:
 
       - name: Build Next.js
         run: pnpm build
-
-      - name: Build Workers
-        run: pnpm workers:build
