@@ -20,13 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ overflow: "hidden" }}>
-      <body className={(inter.className, "h-screen", "w-screen")}>
-        <div className="w-full justify-center flex">
+    <html lang="en">
+      <body className={(inter.className, "min-h-screen", "w-screen")}>
+        <div className="w-full justify-center flex fixed top-0 left-0 z-50">
           <Navbar />
         </div>
 
-        <div className="flex flex-col items-center justify-center h-screen w-screen">
+        <div className="flex flex-col items-center min-h-screen w-screen pt-20">
           {children}
         </div>
       </body>
