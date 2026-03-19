@@ -8,8 +8,8 @@ export const MobileDrawer = () => {
         aria-label="close sidebar"
         className="drawer-overlay"
       ></label>
-      <div className="fixed inset-y-0 left-0 w-80 min-h-full bg-base-200">
-        <NavbarContents className="menu p-4 w-full" />
+      <div className="fixed inset-y-0 p-10 left-0 w-80 min-h-full bg-base-200">
+        <NavbarContents className="menu w-full" />
       </div>
     </div>
   );
