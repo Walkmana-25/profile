@@ -19,7 +19,7 @@ export const Navbar = ({ className }: NavbarProps) => {
           />
           <div className="drawer-content flex flex-col justify-center items-center">
             {/* Navbar */}
-            <div className="navbar w-10/12 backdrop-blur bg-inherit rounded shadow-2xl border-b-2 dark:border-slate-800 border-gray-300">
+            <div className="navbar w-10/12 backdrop-blur bg-inherit rounded shadow-2xl border-b-4 dark:border-slate-800 border-gray-300">
               <div className="flex-none lg:hidden">
                 <label
                   htmlFor="my-drawer-3"
