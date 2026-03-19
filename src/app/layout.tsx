@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Yuta Takahashi",
   description: "Y.Takahashi's Portfolio",
+  icons: {
+    icon: "/avatar.jpg",
+    apple: "/avatar.jpg",
+  },
 };
 
 export default function RootLayout({
