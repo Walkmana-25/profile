@@ -29,7 +29,8 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center py-10 md:px-10">
           <h1 className="text-4xl font-bold">Yuta Takahashi</h1>
           <p className="text-lg m-2">INIAD -Toyo University-</p>
-          <p className="text-lg">東洋大学情報連携学部情報連携学科</p>
+          <p className="text-lg">東洋大学 情報連携学部 情報連携学科</p>
+          <p className="text-lg">2025年度 未踏IT人材発掘・育成事業 クリエータ</p>
         </div>
       </div>
 
